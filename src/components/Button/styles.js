@@ -1,4 +1,4 @@
-import styled , { css } de 'styled-components'  
+import styled , { css } from 'styled-components';  
 
 export const ButtonContainer = styled.button`
 background: #565656;
@@ -9,7 +9,7 @@ padding: 2px 12px;
 min-width: 120px;
 width: 100%;
 
-${({variant}) => variant ≠ "primary" && css`
+${({variant}) => variant !== "primary" && css`
 min-width: 167px;
 height: 33px;
 
@@ -27,3 +27,4 @@ border-radius: 22px;
 }
 
 `}
+`
